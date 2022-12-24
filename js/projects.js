@@ -1,10 +1,10 @@
 const projectsArray = [
     {
-        projectImg: "portfolio/img/img1.jpg",
+        projectImg: "/portfolio/img/img1.jpg",
         projectName: "dWrap",
 
         projectDesc: "Website for finding images and wallpapers ",
-        displayImgs: ["portfolio/img/projectimgs/dwrap1.jpg","portfolio/img/projectimgs/dwrap2.jpg","portfolio/img/projectimgs/dwrap3.jpg","portfolio/img/projectimgs/dwrap4.jpg","portfolio/img/projectimgs/dwrap5.jpg"],
+        displayImgs: ["/portfolio/img/projectimgs/dwrap1.jpg","/portfolio/img/projectimgs/dwrap2.jpg","/portfolio/img/projectimgs/dwrap3.jpg","/portfolio/img/projectimgs/dwrap4.jpg","/portfolio/img/projectimgs/dwrap5.jpg"],
 
         link1:"http://68.183.209.218/dwrap/index.php?page=1",
         link2:"https://github.com/ChristosPts/dWrap",
@@ -20,11 +20,11 @@ const projectsArray = [
         link2:"https://github.com/ChristosPts/Mojito-Search-Engine",
     },
     {
-        projectImg: "/img/img3.jpg",
+        projectImg: "/portfolio/img/img3.jpg",
         projectName: "Recipe Repository",
         
         projectDesc: "A simple recipe site",
-        displayImgs:  ["/img/projectimgs/rr1.jpg","/img/projectimgs/rr2.jpg","/img/projectimgs/rr3.jpg","/img/projectimgs/rr4.jpg"],
+        displayImgs:  ["/portfolio/img/projectimgs/rr1.jpg","/portfolio/img/projectimgs/rr2.jpg","/portfolio/img/projectimgs/rr3.jpg","/portfolio/img/projectimgs/rr4.jpg"],
 
         link1:"https://recipe-repository-five.vercel.app/",
         link2:"https://github.com/ChristosPts/Recipe-Repository",
