@@ -1,10 +1,10 @@
 const projectsArray = [
     {
-        projectImg: "../img/img1.jpg",
+        projectImg: "portfolio/img/img1.jpg",
         projectName: "dWrap",
 
         projectDesc: "Website for finding images and wallpapers ",
-        displayImgs: ["../img/projectimgs/dwrap1.jpg","../img/projectimgs/dwrap2.jpg","../img/projectimgs/dwrap3.jpg","../img/projectimgs/dwrap4.jpg","../img/projectimgs/dwrap5.jpg"],
+        displayImgs: ["portfolio/img/projectimgs/dwrap1.jpg","portfolio/img/projectimgs/dwrap2.jpg","portfolio/img/projectimgs/dwrap3.jpg","portfolio/img/projectimgs/dwrap4.jpg","portfolio/img/projectimgs/dwrap5.jpg"],
 
         link1:"http://68.183.209.218/dwrap/index.php?page=1",
         link2:"https://github.com/ChristosPts/dWrap",
