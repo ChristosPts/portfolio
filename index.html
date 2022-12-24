@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link href="styles.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet"> 
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+	<link
+		rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.css"
+	/>
+
+	<title>Christos Pitsoulakis</title>
+</head>
+<body>
+	<div class = "AppBody">
+		<ul class="background">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		 </ul>
+ 
+		<nav class = "navbar">
+			<ul class="nav-items">
+				<a class="nav-element nav1" href="#home" data-nav = "home">Home</a>
+				<a class="nav-element nav2" href="#projects" data-nav = "projects">Projects</a>
+				<a class="nav-element nav3" href="#contact" data-nav = "contact">Contact</a>
+			</ul>
+		</nav>
+		
+		<div class="tabs">
+			<div class="content" id = "home-section">
+				 <div class="home-items">
+					 
+						<div class="home-left">
+							<h1>About me</h1>
+							<div>
+								<div class="welcomeMsg">
+								 	<h2>Hello! My name is</h2> 
+									<h2 class = "myName">Christos Pitsoulakis.</h2>  
+								 
+								</div>	
+								<h3>I am a recent computer science major graduate, passionate about developing web applications.I am a recent computer science major graduate, passionate about developing web applications.</h3>
+								
+								<div class="skills">
+									<h2 class="skillsTitle">My Skills</h2>
+									<ul>
+										<li><i class="bi bi-check2-square"></i> HTML</li>
+										<li><i class="bi bi-check2-square"></i> CSS</li>
+										<li><i class="bi bi-check2-square"></i> Bootstrap</li>
+										<li><i class="bi bi-check2-square"></i> JavaScript</li>
+										<li><i class="bi bi-check2-square"></i> React</li>
+										<li><i class="bi bi-check2-square"></i> PHP</li>
+										<li><i class="bi bi-check2-square"></i> Java</li>
+										<li><i class="bi bi-check2-square"></i> C</li>
+										<li><i class="bi bi-check2-square"></i> Solidity</li>
+										<li><i class="bi bi-check2-square"></i> VHDL</li>
+									</ul>
+								 
+								</div>
+
+								 <div class="home-left-bottom">
+									<h2>
+										<a href="https://github.com/ChristosPts" target="_blank">
+										<i class="bi bi-github"></i></a>
+									</h2>
+									<h2>
+										<a href="https://linkedin.com/in/christos-pitsoulakis-7571a924b" target="_blank">
+										<i class="bi bi-linkedin"></i></a>
+									</h2>
+									<h2>
+										<a href="#contact" onclick="contactLeft()">Let's Connect
+										<i class="bi bi-box-arrow-in-right"></i></a>
+									</h2>
+								</div> 
+							</div>
+
+						</div>
+				
+						<div class="home-right">
+							<div class="cubebody">
+								<div class="cube">
+									<div class="top"><img src="img/cube/sql.png"/></span></div>
+									<div>
+										<span style="--i:0"><img src="img/cube/html.png"/></span>
+										<span style="--i:1"><img src="img/cube/css.png"/></span>
+										<span style="--i:2"><img src="img/cube/js.png"/></span>
+										<span style="--i:3"><img src="img/cube/php.png"/></span>
+									</div>
+								</div>
+							</div>   
+						</div>
+					 
+				</div>
+			</div>
+
+		<div class="content" id = "projects-section">
+			<div class="projects-items" id="projects-items">
+				<h1>Projects</h1>
+			</div>
+		</div>
+		
+		<div class="popupContainer" id = "popupContainer"></div>
+				
+		<div class="content" id = "contact-section"> 
+			
+				<div class = "contact-section">
+				<div class="contact-left">
+					<h1>Contact Info</h1>
+					<div class="contact-left-item">
+						<i class="bi bi-envelope-at"></i>
+						<div class="contact-leftHeader">
+							<h3>Email:</h3>
+							<h3>chpidev@gmail.com</h3>
+						</div>	
+					</div>
+					<div class="contact-left-item">
+						<i class="bi bi-github"></i>
+						<div class="contact-leftHeader">
+							<h3>Github:</h3>
+							<h3><a href="https://github.com/ChristosPts"  target="_blank">https://github.com/ChristosPts</a></h3>
+						</div>	
+					</div>
+					<div class="contact-left-item">
+						<i class="bi bi-linkedin"></i>
+						<div class="contact-leftHeader">
+							<h3>Linkedin:</h3>
+							<h3><a href="https://linkedin.com/in/christos-pitsoulakis-7571a924b" 
+                                target="_blank">https://www.linkedin.com/in/christos-pitsoulakis</a></h3>
+						</div>
+					</div>
+				</div>
+		
+				<div class="contact-right">
+					<div class="contact-form">
+						<h1>Contact Me</h1>
+						<form action="https://formsubmit.co/chpidev@gmail.com" method="POST">
+							
+							<input type="email" name="email" placeholder = "Email Address" required>
+							<input type="text" name="name" placeholder = "Name" required> 
+							 
+							<input type="text" name="_subject" placeholder="Subject"required>
+							<textarea name="message" rows="8" placeholder="Write your message here" required></textarea>
+							<input type="text" name="_honey" style="display:none">
+							<button type="submit">Send</button>
+						</form> 
+					</div>
+				</div>
+			</div>
+		</div> 
+
+	</div> 
+	<script src="js/tabs.js" defer></script>
+		
+ 	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.js"></script>
+	<script src="js/projects.js" defer></script>
+	<script src="js/popup.js" defer></script>
+	<script src="js/script.js" defer></script>
+ </body>
+</html>
