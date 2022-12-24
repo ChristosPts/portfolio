@@ -10,11 +10,11 @@ const projectsArray = [
         link2:"https://github.com/ChristosPts/dWrap",
     },
     {
-        projectImg: "/img/img2.jpg",
+        projectImg: "/portfolio/img/img2.jpg",
         projectName: "Mojito",
         
         projectDesc: "A search engine built with Google's Custom Search API ",
-        displayImgs: ["/img/projectimgs/mojito1.jpg","/img/projectimgs/mojito2.jpg","/img/projectimgs/mojito3.jpg","/img/projectimgs/mojito4.jpg"],
+        displayImgs: ["/portfolio/img/projectimgs/mojito1.jpg","/portfolio/img/projectimgs/mojito2.jpg","/portfolio/img/projectimgs/mojito3.jpg","/portfolio/img/projectimgs/mojito4.jpg"],
 
         link1:"https://mojito-hypb202k9-christospts.vercel.app/",
         link2:"https://github.com/ChristosPts/Mojito-Search-Engine",
