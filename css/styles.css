@@ -21,7 +21,7 @@
 body {
    position: relative;
    overflow: hidden;
-   background-image: url("/imgs/sun-tornado.svg");
+   background-image: url("../imgs/sun-tornado.svg");
    background-position: left;
    background-size:cover;
    caret-color: transparent;
