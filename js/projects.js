@@ -1,12 +1,5 @@
 const projects = [
-    {
-        title: "Website Template",
-        imageUrl: "imgs/projects/company.jpg",
-        technologies: ["Bootstrap", "HTML", "CSS", "JavaScript"],
-        description: "A simple template for service providers. The purpose of this site was to explore the capabilities of Bootstrap as well as my proficiency with the framework.",
-        liveDemoUrl: "https://site-template-2.vercel.app/",
-        githubUrl: "https://github.com/ChristosPts/site-template-2"
-    },
+   
     {
         title: "Primo",
         imageUrl: "imgs/projects/primo.jpg",
@@ -38,7 +31,15 @@ const projects = [
         description: "A MERN stack blog application enabling users to write, edit, and delete posts.",
         liveDemoUrl: "#",
         githubUrl: "https://github.com/ChristosPts/MERN-Blog"
-    }
+    },
+     {
+        title: "Dabble",
+        imageUrl: "imgs/projects/dabble.jpg",
+        technologies: ["React.js", "Fabric.js", "Bootstrap"],
+        description: "A React-powered canvas editor built with Fabric.js, offering versatile drawing, shape, and image tools, designed for intuitive and dynamic creative workflows in the browser.",
+        liveDemoUrl: "https://dabble-six.vercel.app/",
+        githubUrl: "https://github.com/ChristosPts/dabble"
+    },
 ];
 
 
