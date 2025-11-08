@@ -63,8 +63,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
                 <div class="link-btn">
                     ${project.liveDemoUrl !== "#" ? 
-                        `<a href="${project.liveDemoUrl}" target="_blank" class="btn btn-blue"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>` : 
-                        `<a class="btn-gray" title="Coming Soon"><i class="bi bi-gear"></i> Live Demo</a>`}
+                        `<a href="${project.liveDemoUrl}" target="_blank" class="btn btn-blue"><i class="bi bi-box-arrow-up-right"></i> Demo</a>` : 
+                        `<a class="btn-gray" title="Coming Soon"><i class="bi bi-gear"></i> Demo</a>`}
                     <a href="${project.githubUrl}" target="_blank" class="btn"><i class="bi bi-github"></i> GitHub</a>
                 </div>
             </div>
